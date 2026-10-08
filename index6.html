@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Login</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            width: 320px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.45);
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 25px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 90%;
+            padding: 12px;
+            margin: 8px;
+            border: none;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 90%;
+            padding: 12px;
+            margin-top: 8px;
+            border: none;
+            background-color: teal;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkcyan;
+        }
+
+        p {
+            font-size: 13px;
+            text-align: left;
+            margin-left: 15px;
+        }
+
+        a {
+            margin-left: 20px;
+            color: blue;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="login-box">
+
+        <h1>Account Login</h1>
+
+        <input type="text" placeholder="User Name">
+
+        <input type="password" placeholder="Password">
+
+        <button>LOGIN</button>
+
+        <p>
+            <input type="checkbox">
+            remember me
+
+            <a href="#">Forgot Password?</a>
+        </p>
+
+    </div>
+
+</body>
+</html>
